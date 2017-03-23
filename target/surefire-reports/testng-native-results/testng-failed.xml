@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.doudou.uu.Chrome2Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.doudou.uu.Chrome2Test -->
+      <class name="com.doudou.uu.FireFox2Test">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="f"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.doudou.uu.FireFox2Test -->
+      <class name="com.doudou.uu.IE2Test">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.doudou.uu.IE2Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

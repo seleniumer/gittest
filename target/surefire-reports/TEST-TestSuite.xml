@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="3" name="TestSuite" time="18.657" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\work\uu"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\work\uu"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\doudou\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Atools\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\Java\jre1.8.0.111\bin;C:\Program Files\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;D:\Atools\apache-maven-3.3.9\bin;D:\tools\driver;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;D:\Python27;D:\Python27\Lib;D:\Python27\Tools\Scripts;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\doudou"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="doudou"/>
+    <property name="java.class.path" value="D:\Atools\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Atools\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="com.doudou.uu.Chrome2Test" name="f" time="10.9">
+    <failure message="expected [webdriver_百度搜索] but found [webdriver_�ٶ�����]" type="java.lang.AssertionError">java.lang.AssertionError: expected [webdriver_百度搜索] but found [webdriver_�ٶ�����]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.doudou.uu.Chrome2Test.f(Chrome2Test.java:44)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@160847b
+</system-out>
+    <system-err>Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 2145
+Only local connections are allowed.
+三月 23, 2017 8:06:14 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+三月 23, 2017 8:06:18 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.doudou.uu.FireFox2Test" name="f" time="7.713">
+    <failure message="expected [百度一下，你就知道] but found [webdriver_�ٶ�����]" type="java.lang.AssertionError">java.lang.AssertionError: expected [百度一下，你就知道] but found [webdriver_�ٶ�����]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.doudou.uu.FireFox2Test.f(FireFox2Test.java:43)
+</failure>
+    <system-err>1490227590540	geckodriver	INFO	Listening on 127.0.0.1:34694
+三月 23, 2017 8:06:30 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+1490227591044	mozprofile::profile	INFO	Using profile path C:\Users\doudou\AppData\Local\Temp\rust_mozprofile.c3XiWMSHcrVo
+1490227591067	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1490227591112	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50791
+1490227593407	Marionette	INFO	Listening on port 50791
+三月 23, 2017 8:06:37 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=web&amp;json=1&amp;p=3&amp;sid=1446_21120_20927&amp;req=2&amp;csor=3&amp;pwd=we&amp;cb=jQuery110208322620084452821_1490227599790&amp;_=1490227599794, line 1: TypeError: jQuery110208322620084452821_1490227599790 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=webdriv&amp;json=1&amp;p=3&amp;sid=1446_21120_20927&amp;req=2&amp;csor=7&amp;pwd=webdri&amp;cb=jQuery110208322620084452821_1490227599790&amp;_=1490227599798, line 1: TypeError: jQuery110208322620084452821_1490227599790 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=webdrive&amp;json=1&amp;p=3&amp;sid=1446_21120_20927&amp;req=2&amp;csor=8&amp;pwd=webdriv&amp;cb=jQuery110208322620084452821_1490227599790&amp;_=1490227599799, line 1: TypeError: jQuery110208322620084452821_1490227599790 is not a function
+</system-err>
+  </testcase>
+  <testcase classname="com.doudou.uu.IE2Test" name="f" time="0.042">
+    <failure message="Failed to navigate to http://www.baidu.com. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;doudou-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=8, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:40506/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 20339a0f-83c1-4499-9b8e-b5eb59a740e3" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to navigate to http://www.baidu.com. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;doudou-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=8, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:40506/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 20339a0f-83c1-4499-9b8e-b5eb59a740e3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:322)
+	at com.doudou.uu.IE2Test.f(IE2Test.java:39)
+</failure>
+    <system-err>[Child 5384] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+三月 23, 2017 8:06:46 上午 org.openqa.selenium.os.UnixProcess destroy
+严重: Unable to kill process with PID 3628
+Started InternetExplorerDriver server (32-bit)
+3.0.0.0
+Listening on port 40506
+Only local connections are allowed
+三月 23, 2017 8:06:47 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+三月 23, 2017 8:06:49 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.doudou.uu.AppTest" name="testApp on testApp(com.doudou.uu.AppTest)" time="0.002"/>
+</testsuite>
